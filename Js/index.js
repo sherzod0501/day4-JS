@@ -1,28 +1,32 @@
-let x = 9;
-console.log(x);
 
-let sh = 3;
-console.log(sh);
-
-let e = 2; 
-console.log(e);
-
-let r = 1; 
-console.log(r);
-
-let z = 4;
-console.log(z);
-
-let o = 5;
-console.log(o);
 
 let d = 6;
 console.log (d);
 
-let s = 20;
-let S = 27;
+let s = true;
+console.log (s);
 
-console.log (s == S);
+let age = 17n;
+console.log (age);
+
+let school = "najot talim"
+console.log (school);
+
+let student;
+console.log (student);
+
+let child = null;
+console.log (child);
+
+let room = Symbol ('xona');
+console.log (room);
+
+let teachers = { 
+'name': 'Ali',
+age: 19,
+address: 'Toshkent',
+};
+console.log (teachers);
 
 console.timeEnd ("biron nima");
 console.error ("xatolik");
